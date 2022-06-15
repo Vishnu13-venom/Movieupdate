@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Movies WatchList
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this application you can add your favourite movies to your WatchList, Suppose if you make plan of list of movie and watching one by one so this applcation surely help you keep track all your records and it also have some cool feature like the movie you watched can add to the watched list so it will be hassle free that which movie you watched or will to be watch.
 
-## Available Scripts
+## Backend
+I create a backend as a JSON server where all the data are stored you can make your list private and it will only access by the user that created the list private with their user authentication that also stored in the JSON server.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Dark Theme user interface
+- All movies
+- Netflix related theme
+- Add or Delete movies List
+- Create the public or Private list
+- User authetication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Install {project-name} with npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm install {project-name}
+  cd my-project
+  npm run start-json:server
+  npm start
+```
+    
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Login page](https://drive.google.com/file/d/1Q-0HI4dC0IWxtpIATdOUufzmb33pSQdW/view?usp=sharing)
+- [Home Page](https://drive.google.com/file/d/1M2hZCEH--PTLaj2KkeJLLbNhqapC1ZQ5/view?usp=sharing)
+- [Add page](https://drive.google.com/file/d/10ah7IP6AgfwWnmHYjGmopG90FA9rDJVW/view?usp=sharing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Test Application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Here is movie watchlist link:
+- [MovieMis](https://moviemis-list.herokuapp.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are always welcome!
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Run Locally
 
-### Code Splitting
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  git clone https://github.com/Vishnu13-venom/Movieupdate.git
+```
 
-### Analyzing the Bundle Size
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  cd MovieList
+```
 
-### Making a Progressive Web App
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm install
+```
+Start the Json-server for backend
 
-### Advanced Configuration
+```bash
+  npm run start-json:server
+```
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  npm run start
+```
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
