@@ -19,6 +19,16 @@
       "email": "Vishnu@gmail.com",
       "password": "12345",
       "id": 4
+    },
+    {
+      "email": "V@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "email": "Vim@gmail.com",
+      "password": "1112",
+      "id": 6
     }
   ],
   "watchlists": [
