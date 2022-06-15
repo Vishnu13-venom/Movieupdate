@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "email": "Testuser@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "email": "Testuser2@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "Testuser3@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "email": "Vishnu@gmail.com",
+      "password": "12345",
+      "id": 4
+    }
+  ],
+  "watchlists": [
+    {
+      "id": 1,
+      "name": "Watchlist 1",
+      "email": "Testuser@gmail.com",
+      "private": true,
+      "list": [
+        {
+          "Title": "Harry Potter and the Deathly Hallows: Part 2",
+          "Year": "2011",
+          "imdbID": "tt1201607",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Watchlist 2",
+      "email": "Testuser2@gmail.com",
+      "private": false,
+      "list": [
+        {
+          "Title": "Harry Potter and the Deathly Hallows: Part 2",
+          "Year": "2011",
+          "imdbID": "tt1201607",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "private": true,
+      "email": "Testuser@gmail.com",
+      "list": [
+        {
+          "Title": "Braveheart",
+          "Year": "1925",
+          "imdbID": "tt0015643",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BZWE3MzNlOGYtMzA5ZS00OWIxLTlmMGYtOWQ1NDEzNzc4NTcyXkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Harry Potter and the Sorcerer's Stone",
+          "Year": "2001",
+          "imdbID": "tt0241527",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMzkyZGFlOWQtZjFlMi00N2YwLWE2OWQtYTgxY2NkNmM1NjMwXkEyXkFqcGdeQXVyNjY1NTM1MzA@._V1_SX300.jpg"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Mine",
+      "private": true,
+      "email": "Testuser@gmail.com",
+      "list": [
+        {
+          "Title": "Harry Potter and the Deathly Hallows: Part 2",
+          "Year": "2011",
+          "imdbID": "tt1201607",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Harry Potter and the Sorcerer's Stone",
+          "Year": "2001",
+          "imdbID": "tt0241527",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMzkyZGFlOWQtZjFlMi00N2YwLWE2OWQtYTgxY2NkNmM1NjMwXkEyXkFqcGdeQXVyNjY1NTM1MzA@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Harry Potter and the Chamber of Secrets",
+          "Year": "2002",
+          "imdbID": "tt0295297",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "New List",
+      "private": false,
+      "email": "Testuser@gmail.com",
+      "list": [
+        {
+          "Title": "Avengers: Infinity War",
+          "Year": "2018",
+          "imdbID": "tt4154756",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Avengers: Endgame",
+          "Year": "2019",
+          "imdbID": "tt4154796",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Watchlist3",
+      "private": false,
+      "email": "Vishnu@gmail.com",
+      "list": [
+        {
+          "Title": "Avengers: Infinity War",
+          "Year": "2018",
+          "imdbID": "tt4154756",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Avengers: Endgame",
+          "Year": "2019",
+          "imdbID": "tt4154796",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Avengers: Age of Ultron",
+          "Year": "2015",
+          "imdbID": "tt2395427",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Ultimate Avengers II",
+          "Year": "2006",
+          "imdbID": "tt0803093",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BZjI3MTI5ZTYtZmNmNy00OGZmLTlhNWMtNjZiYmYzNDhlOGRkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        }
+      ],
+      "id": 6
+    }
+  ]
+}

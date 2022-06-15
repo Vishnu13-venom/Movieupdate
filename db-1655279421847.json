@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "email": "Testuser@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "email": "Testuser2@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "Testuser3@gmail.com",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "watchlists": [
+    {
+      "id": 1,
+      "name": "Watchlist 1",
+      "email": "Testuser@gmail.com",
+      "private": true,
+      "list": [
+        {
+          "Title": "Harry Potter and the Deathly Hallows: Part 2",
+          "Year": "2011",
+          "imdbID": "tt1201607",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Watchlist 2",
+      "email": "Testuser2@gmail.com",
+      "private": false,
+      "list": [
+        {
+          "Title": "Harry Potter and the Deathly Hallows: Part 2",
+          "Year": "2011",
+          "imdbID": "tt1201607",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "private": true,
+      "email": "Testuser@gmail.com",
+      "list": [
+        {
+          "Title": "Braveheart",
+          "Year": "1925",
+          "imdbID": "tt0015643",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BZWE3MzNlOGYtMzA5ZS00OWIxLTlmMGYtOWQ1NDEzNzc4NTcyXkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Harry Potter and the Deathly Hallows: Part 2",
+          "Year": "2011",
+          "imdbID": "tt1201607",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        },
+        {
+          "Title": "Harry Potter and the Sorcerer's Stone",
+          "Year": "2001",
+          "imdbID": "tt0241527",
+          "Type": "movie",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMzkyZGFlOWQtZjFlMi00N2YwLWE2OWQtYTgxY2NkNmM1NjMwXkEyXkFqcGdeQXVyNjY1NTM1MzA@._V1_SX300.jpg"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
